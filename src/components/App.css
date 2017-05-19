@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+}
+
+
+.App-header {
+  background: url(http://res.cloudinary.com/kaladin9017/image/upload/q_auto:best/v1495149227/BOGO_mceh1g.jpg) no-repeat center;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  color: white;
+  height: 30vh;
+}
