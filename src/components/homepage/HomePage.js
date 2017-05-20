@@ -8,19 +8,12 @@ class HomePage extends Component {
       e.stopPropagation();
       this.classList.toggle('open');
     }
-    function toggleClose(e) {
-      e.stopPropagation();
-      if(this.classList.value.includes('open')) {
-        this.classList.toggle('open');
-      }
-    }
     function toggleActive(e) {
       if (e.propertyName.includes('flex')) {
         this.classList.toggle('open-active');
       }
     }
     panels.forEach(panel => panel.addEventListener('click', toggleOpen));
-    panels.forEach(panel => panel.addEventListener('mouseleave', toggleClose));
     panels.forEach(panel => panel.addEventListener('transitionend', toggleActive));
   }
 
@@ -34,7 +27,7 @@ class HomePage extends Component {
         </div>
         <div className={"category category_box_2"}>
           <p>DEAD</p>
-          <p> De Luna</p>
+          <p>Luna</p>
           <p>G.O.D.S</p>
         </div>
         <div className={"category category_box_3"}>
@@ -44,7 +37,7 @@ class HomePage extends Component {
         </div>
         <div className={"category category_box_4"}>
           <p>Dead</p>
-          <p>Air</p>
+          <p>Third</p>
           <p>G.O.D.S</p>
         </div>
       </div>

@@ -1,4 +1,5 @@
 .categories {
+background-color: #F9F9F9 !important;
  margin: 16px;
  min-height:54vh;
  overflow: hidden;
@@ -8,6 +9,7 @@
 }
 
 .category {
+  background-color: #F9F9F9 !important;
   cursor: pointer;
   box-shadow:inset 0 0 0 5px rgba(255,255,255,0.1);
   color:white;
@@ -28,15 +30,11 @@
 }
 
 .category_box_1 {
-  background:url(http://res.cloudinary.com/kaladin9017/image/upload/v1495167491/Laughing_Robot-new_bdnkh2.jpg) no-repeat center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background-image:url(http://res.cloudinary.com/kaladin9017/image/upload/v1495239391/imageedit_1_2544672764_rpqvu2.png)
 }
-.category_box_2 { background-image:url(http://res.cloudinary.com/kaladin9017/image/upload/v1495167491/Star_Eater-new_gmcmpf.jpg); }
-.category_box_3 { background-image:url(http://res.cloudinary.com/kaladin9017/image/upload/v1495167491/Robot-new_vqnczd.jpg); }
-.category_box_4 { background-image:url(http://res.cloudinary.com/kaladin9017/image/upload/v1495167491/Cloud-new_lnr352.jpg); }
+.category_box_2 { background-image:url(http://res.cloudinary.com/kaladin9017/image/upload/v1495239474/imageedit_1_8479883812_qr0urv.png); }
+.category_box_3 { background-image:url(http://res.cloudinary.com/kaladin9017/image/upload/v1495239452/imageedit_1_2162005994_pvizlu.png); }
+.category_box_4 { background-image:url(http://res.cloudinary.com/kaladin9017/image/upload/v1495239321/imageedit_1_9393523596_odsg7b.png); }
 
 .category > * {
   margin:0;
